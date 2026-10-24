@@ -1,0 +1,26 @@
+# Helm packages
+*.tgz
+
+# Local Helm configuration
+.helm/
+
+# Terraform state
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+kubeconfig
+kubeconfig.*
+
+# Editor files
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
