@@ -13,5 +13,5 @@ helmCharts:
     valuesInline:
       replicaCount: 1
       image:
-        repository: example/payment-api
+        repository: payment-api
         tag: "1.0.0"
